@@ -26,14 +26,20 @@ body a {
   background: tomato;
 }
 .content-header {
-  height: 40vh;
+  min-height: 100px;
+  height: 10vh;
   text-align: center;
   border: 3px solid red;
 }
-.content-header .heading {
+.content-header h2 {
   border: 1px solid blue;
-  font-size: 30px;
+  font-size: 43px;
   font-weight: 900;
+}
+.content-header p {
+  border: 1px solid blue;
+  font-size: 20px;
+  font-weight: 500;
 }
 
 /* General Section end */
@@ -56,21 +62,21 @@ header {
   align-items: center;
   text-align: center;
 }
-.heading-child {
-  /* height: 60vh;
-  width: 130vh; */
-  width: 60%;
+.header-child {
+  width: 100vh;
+  min-width: 800px;
 }
-.heading-child h1 {
+.header-child h1 {
   font-size: 60px;
   font-weight: 900;
 }
-.heading-child p {
+.header-child p {
   font-size: 20px;
+  margin: 0 5%;
 }
 
-.heading-child div {
-  margin-top: 15px;
+.header-child div {
+  margin-top: 40px;
 }
 
 /* Header secotion end */
