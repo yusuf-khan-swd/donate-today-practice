@@ -283,6 +283,30 @@ header {
 }
 /* Get Update end */
 
+/* Flex content start*/
+.flex-content {
+  display: flex;
+}
+.half-width {
+  width: 50%;
+  height: 400px;
+  margin-left: 5%;
+}
+.half-width img {
+  width: 80%;
+}
+.half-width h2 {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.half-width p {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 500;
+}
+/* Flex content end*/
+
 /* footer start*/
 footer {
   height: 180px;
