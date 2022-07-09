@@ -191,3 +191,42 @@ header {
   width: 180px;
 }
 /* Our Servces end */
+
+/* About our activity start */
+.about-activity-parent {
+  display: flex;
+  justify-content: center;
+}
+.about-activity {
+  height: 120px;
+  width: 60%;
+  text-align: center;
+}
+.about-activity h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-activity p {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* activity image */
+.about-acitivity-image {
+  display: flex;
+  justify-content: center;
+}
+.activity-image {
+  margin-left: 15px;
+  margin-bottom: 15px;
+  width: 300px;
+  height: 250px;
+}
+.activity-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+/* About our activity end */
