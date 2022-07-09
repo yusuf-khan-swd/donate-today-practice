@@ -99,7 +99,7 @@ header {
   margin-left: 15px;
   border: none;
   border-radius: 7px;
-  background: rgba(168, 163, 163, 0.151);
+  background: rgba(168, 163, 163, 0.356);
   font-size: 30px;
   font-weight: 700;
 }
@@ -282,3 +282,21 @@ header {
   font-weight: 400;
 }
 /* Get Update end */
+
+/* footer start*/
+footer {
+  height: 180px;
+  background: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-style h3 {
+  margin-bottom: 20px;
+  color: tomato;
+  font-style: italic;
+  font-size: 30px;
+}
+/* footer end*/
