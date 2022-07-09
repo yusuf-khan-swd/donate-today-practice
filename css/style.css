@@ -12,6 +12,15 @@ body a {
   text-decoration: none;
   color: black;
 }
+header {
+  margin-bottom: 150px;
+}
+section {
+  margin-bottom: 150px;
+}
+main {
+  margin-bottom: 150px;
+}
 .link-button {
   border: none;
   border-radius: 5px;
@@ -25,19 +34,24 @@ body a {
   cursor: pointer;
   background: tomato;
 }
-.content-header {
-  min-height: 100px;
-  height: 10vh;
+.content-parent div {
+  margin-bottom: 40px;
+}
+.content-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  border: 3px solid red;
 }
-.content-header h2 {
-  border: 1px solid blue;
-  font-size: 43px;
-  font-weight: 900;
+.content-child {
+  height: 200px;
+  width: 100vh;
 }
-.content-header p {
-  border: 1px solid blue;
+.content-child h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.content-child p {
   font-size: 20px;
   font-weight: 500;
 }
@@ -52,7 +66,6 @@ header {
   min-height: 400px;
   height: 100vh;
   color: white;
-  margin-bottom: 150px;
 }
 .header-parent {
   min-height: 400px;
@@ -64,7 +77,6 @@ header {
 }
 .header-child {
   width: 100vh;
-  min-width: 800px;
 }
 .header-child h1 {
   font-size: 60px;
@@ -72,7 +84,7 @@ header {
 }
 .header-child p {
   font-size: 20px;
-  margin: 0 5%;
+  font-weight: 500;
 }
 
 .header-child div {
@@ -82,5 +94,60 @@ header {
 /* Header secotion end */
 
 /* Donate today start */
+.donate-today-amount-btn {
+  padding: 40px 30px;
+  margin-left: 15px;
+  border: none;
+  border-radius: 7px;
+  background: rgba(168, 163, 163, 0.151);
+  font-size: 30px;
+  font-weight: 700;
+}
+#special-btn {
+  border: 3px solid tomato;
+  background: rgba(255, 99, 71, 0.116);
+  color: tomato;
+}
+.input-amount input {
+  border: none;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 500;
+  border-bottom: 1px solid grey;
+  padding: 10px 20px;
+}
 
 /* Donate today end */
+
+/* Our Donate Plan start */
+.cards {
+  text-align: justify;
+  margin-left: 30px;
+  padding: 20px;
+  height: 300px;
+  width: 320px;
+  border-radius: 7px;
+}
+.cards h1 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.first-card {
+  background: rgba(62, 62, 252, 0.192);
+}
+.second-card {
+  background: rgba(252, 193, 116, 0.192);
+}
+.third-card {
+  background: rgba(184, 106, 6, 0.192);
+}
+.fourth-card {
+  background: rgba(18, 214, 83, 0.192);
+}
+.fifth-card {
+  background: rgba(42, 233, 233, 0.192);
+}
+.sixth-card {
+  background: rgba(65, 8, 199, 0.192);
+}
+/* Our Donate Plan end */
