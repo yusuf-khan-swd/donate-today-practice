@@ -230,3 +230,55 @@ header {
 }
 
 /* About our activity end */
+
+/* Get Update start */
+.get-upadate-parent {
+  display: flex;
+  justify-content: center;
+}
+.get-update-child {
+  height: 170px;
+  width: 60%;
+  text-align: center;
+}
+.get-update-child h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.get-update-child p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.get-update-child div {
+  margin-bottom: 20px;
+}
+/* email  */
+.get-update-parent {
+  display: flex;
+  justify-content: center;
+}
+.get-update {
+  background-color: rgba(245, 192, 124, 0.349);
+  height: 200px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email input {
+  border: none;
+  margin-right: -4px;
+  width: 300px;
+  background: rgba(192, 185, 185, 0.589);
+  padding: 13px;
+}
+.email button {
+  border: none;
+  margin: 0;
+  background: rgba(250, 100, 74, 0.849);
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 400;
+}
+/* Get Update end */
