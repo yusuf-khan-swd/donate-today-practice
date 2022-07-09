@@ -151,3 +151,43 @@ header {
   background: rgba(65, 8, 199, 0.192);
 }
 /* Our Donate Plan end */
+
+/* Our Services start */
+.about-service {
+  height: 150px;
+  width: 60%;
+  text-align: center;
+}
+.about-service-parent {
+  display: flex;
+  justify-content: center;
+}
+
+.about-service h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+.about-service p {
+  font-size: 20px;
+  font-weight: 500;
+}
+.about-service div {
+  margin-bottom: 20px;
+}
+/* Service icon */
+.service-icon {
+  display: flex;
+  justify-content: center;
+}
+.icon {
+  font-size: 20px;
+  height: 180px;
+  width: 200px;
+  text-align: center;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.icon img {
+  width: 180px;
+}
+/* Our Servces end */
